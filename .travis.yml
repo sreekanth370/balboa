@@ -1,4 +1,6 @@
 language: go
+arch : ppc64le
+
 sudo: false
 script:
   - go vet ./...
